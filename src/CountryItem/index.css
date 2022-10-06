@@ -1,0 +1,24 @@
+.ConuntryListItemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  border-bottom: 1px solid white;
+  align-items: center;
+  color: white;
+}
+
+.VisitButton {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #0269cf;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.buttonContainer {
+  width: 5vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

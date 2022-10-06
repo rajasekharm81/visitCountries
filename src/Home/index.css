@@ -1,0 +1,39 @@
+.homeMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #161624;
+}
+
+.headingEl {
+  color: white;
+  align-self: flex-start;
+  margin-left: 2vw;
+}
+
+.CountriesListContainer {
+  height: 40vh;
+  width: 95vw;
+  background-color: #334155;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  padding-left: 2vw;
+  scroll-behavior: auto;
+}
+
+.VisitedCountriesListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 40vh;
+  width: 95vw;
+  background-color: #334155;
+  border-radius: 15px;
+  border: 1px solid white;
+  overflow: auto;
+  padding: 2%;
+}
